@@ -27,13 +27,13 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  
+  return b = array.shift()
 end
 
 def retrieve_last_element_from_array(array)
-  
+  return c = array.pop()
 end
 
 def update_element_from_index(array, index_number, element)
-
+  array.index(index_number) = element 
 end
